@@ -43,5 +43,13 @@ public class Latihan01 {
         System.out.println("Bilangan Fibonacci ke-"+n+" : "+ hasil);
         
     }
+    public static void main(String[] args) {
+        String identitas = "Muhammad Bagas Ramadhan / XRPL2 / 21";
+        
+        tampilJudul(identitas);
+        int n = tampilInput();
+        BigInteger hasil = fibo(n);
+        tampilHasil(n, hasil);
+    }
     
 }
